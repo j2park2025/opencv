@@ -1,0 +1,34 @@
+2021.10.02
+
+1. https://nanyoung18.medium.com/mac-darkflow%EB%A1%9C-%EC%8B%A0%ED%98%B8%EB%93%B1-%EA%B2%80%EC%B6%9C-yolo%EB%AA%A8%EB%8D%B8-
+2. 위에 자료에 보면 darkflow 라는게 있을텐데 그거는 다음시간에 함(쌤이 복잡하고 오래걸린다 그래서)
+3. 남는시간엔 image labeling 좀 더 하셈
+
+image labeling 하는 방법:
+위 링크에 나와있긴한데..일단
+    1) 이 opencv 를 Visual Studio Code 에서 열어준다. 
+    2) cd labelImg 해서 labelimg 에 들어간다.
+    3) 터미널에서 python labelImg.py 이걸 친다. (가상환경 열어져있는지 확인 먼저)
+    4) 그러면 open, open dir, 이런 커맨드가 있는 창이 뜰거임
+    5) 거기서 open dir 해서 opencv 폴더(테스크탑에서 찾으면됨) 에 들어있는 이미지컬렉션 파일을 연다.
+    6) 레이블링 하기 전에 그 폴더에가 이미지 좀 더 추가하고 그냥 하면 됨!
+    + 단축키: w-네모 만들기 d-다음 사진(aka파일) a-전 사진(aka파일)
+
+오늘한것:
+복사 붙여넣기 하고 이미지 수작업으로 레이블링
+그리고 install 할거 다 함(1번 링크에서 하라는대로 / 근데 그대신 위에 동영상 어쩌고는 스킵함 차피 난 동영상이 아님)
+
+Resources:
+https://deepflowest.tistory.com/194 
+http://localhost:8888/tree - Jupyter Notebook 먼저 실행해야지만 열림 안그러면 안뜸
+http://localhost:8888/notebooks/Untitled.ipynb - 이번에 쓰던 그 In [] 그거 여기는 한줄당 하나 코드 그냥 보통처럼 넣기
+https://bong-sik.tistory.com/16 
+https://pjreddie.com/darknet/yolo/ - 욜로
+https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/ 
+
+앞으론 좀 설명을 구체적으로 적길 바람^^ 
+진짜 모든 과목이
+(design-test, chinese-listening, phe-formative/summative tennis project, math-summative, strings-recording summ, ins-two countries research, science-6th grader summative, english-poem analysis essay) 
+summative 하고 있어서 주중엔 도무지 시간이 나질 않음~ (생각도 안남~)
+
+python flow — model ./cfg/my-tiny-yolo.cfg — labels ./labels.txt — trainer adam — dataset ../labelimages/ — annotation ../labelimages — train — summary ./logs — batch 3 — epoch 100 — save 50 — keep 5 — lr 1e-04 — gpu 0.5 — load -1

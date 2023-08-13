@@ -1,0 +1,26 @@
+<annotation>
+	<folder>labelimages</folder>
+	<filename>giphy.gif</filename>
+	<path>/Users/JacquelineP/Desktop/labelimages/giphy.gif</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>162</xmin>
+			<ymin>232</ymin>
+			<xmax>307</xmax>
+			<ymax>370</ymax>
+		</bndbox>
+	</object>
+</annotation>

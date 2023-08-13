@@ -1,0 +1,26 @@
+<annotation>
+	<folder>labelimages</folder>
+	<filename>Screen Shot 2021-10-02 at 11.40.50 AM.png</filename>
+	<path>/Users/JacquelineP/Desktop/labelimages/Screen Shot 2021-10-02 at 11.40.50 AM.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>906</width>
+		<height>804</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>352</xmin>
+			<ymin>305</ymin>
+			<xmax>586</xmax>
+			<ymax>474</ymax>
+		</bndbox>
+	</object>
+</annotation>

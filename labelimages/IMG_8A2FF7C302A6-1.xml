@@ -1,0 +1,26 @@
+<annotation>
+	<folder>labelimages</folder>
+	<filename>IMG_8A2FF7C302A6-1.jpeg</filename>
+	<path>/Users/JacquelineP/Coding/opencv/labelimages/IMG_8A2FF7C302A6-1.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1125</width>
+		<height>1155</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>655</xmin>
+			<ymin>382</ymin>
+			<xmax>874</xmax>
+			<ymax>543</ymax>
+		</bndbox>
+	</object>
+</annotation>

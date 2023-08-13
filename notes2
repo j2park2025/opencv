@@ -1,0 +1,11 @@
+1. http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3 여기서 그 In [] 이거 코드 넣어서 실행 테스트
+2. https://bong-sik.tistory.com/16 여기서 받은 코드로 실행
+3. 그다음 사진으로 테스트(사진은 http://localhost:8889/tree 여기에다가 넣기)
+
+끝
+
+자료:
+https://iagreebut.tistory.com/97 
+https://pjreddie.com/darknet/yolo/ 
+
+source .env/bin/activate
